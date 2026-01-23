@@ -17,7 +17,8 @@
     font-weight: normal;
     src: local('Alexis'), url('../fonts/alex.woff') format('woff');
     src: url("../fonts/alexisv3.ttf") format('truetype');
-
+}
+    
 html, body{
     height: 100%;
     width: 100%;
@@ -271,4 +272,5 @@ input {
     font-family:'Lucida Console', 'monospace';
     text-align: justify;
 }
+
 
