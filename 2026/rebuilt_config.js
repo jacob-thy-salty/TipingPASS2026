@@ -1,8 +1,8 @@
 var config_data = `
 {
   "dataFormat": "tsv",
-  "title": "Scouting PASS 2026",
-  "page_title": "REBUILT",
+  "title": "REBUILT | Deceivers Robotics",
+  "page_title": "REBUILT | Deceivers Robotics",
   "checkboxAs": "10",
   "prematch": [
     { "name": "Scouter Initials",
@@ -55,15 +55,6 @@ var config_data = `
       "min": 1,
       "max": 99999
     },
-    { "name": "Auto Start Location",
-      "code": "as",
-      "type": "clickable_image",
-      "filename": "2026/half_field.png",
-      "clickRestriction": "one",
-      "dimensions": "7 10",
-      "allowableResponses": "4 11 18 25 32 39 46 53 60 67",
-      "shape": "circle 5 black red true"
-    }
   ],
   "auton": [
     { "name": "Auto Shooting Location",
@@ -94,7 +85,7 @@ var config_data = `
       "type": "radio",
       "choices": {
         "c": "Climbed<br>",
-        "a": "Attempted<br>",
+        "a": "Attempted/failed<br>",
         "x": "Not Attempted"
       },
       "defaultValue": "x"
@@ -164,24 +155,14 @@ var config_data = `
         "1": "Level 1<br>",
         "2": "Level 2<br>",
         "3": "Level 3<br>",
-        "a": "Attempted<br>",
+        "a": "Attempted/Failed<br>",
         "x": "Not Attempted"
       },
       "defaultValue": "x"
     }
   ],
   "postmatch": [
-    { "name": "Driver Skill",
-      "code": "ds",
-      "type": "radio",
-      "choices": {
-        "n": "Not Effective<br>",
-        "a": "Average<br>",
-        "v": "Very Effective<br>",
-        "x": "Not Observed"
-      },
-      "defaultValue": "x"
-    },
+
     { "name": "Defense Rating",
       "code": "dr",
       "type": "radio",
@@ -222,11 +203,6 @@ var config_data = `
       "code": "tip",
       "type": "bool"
     },
-    { "name": "Make good<br>alliance partner?",
-      "tooltip": "Would you want this robot on your alliance in eliminations?",
-      "code": "all",
-      "type": "bool"
-    },
     { "name": "Was Defended",
       "code": "def",
       "type": "bool"
@@ -234,13 +210,6 @@ var config_data = `
     { "name": "Excessive Penalties",
       "code": "pen",
       "type": "bool"
-    },
-    { "name": "Fuel Percentage",
-      "tooltip": "What percentage of the total fuel for this alliance did this robot score?",
-      "code": "pct",
-      "type": "number",
-      "min": 0,
-      "max": 100
     },
     { "name": "Comments",
       "code": "co",
