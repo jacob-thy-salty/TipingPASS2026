@@ -1,7 +1,7 @@
 var config_data = `
 {
   "dataFormat": "tsv",
-  "title": "REBUILT | Deceivers Robotics",
+  "title": "Deceivers Robotics | Scouting",
   "page_title": "REBUILT | Deceivers Robotics",
   "checkboxAs": "10",
   "prematch": [
@@ -60,10 +60,10 @@ var config_data = `
     { "name": "Fuel Scored",
       "code": "afs",
       "type": "text",
-      "size": 15,
+      "size": 10,
       "maxSize": 55
     },
-    { "name": "Pass from Neutral Zone",
+    { "name": "Fed from Neutral Zone",
       "code": "apn",
       "expectedMax": 60,
       "altInc1": 10,
@@ -94,30 +94,20 @@ var config_data = `
     }
   ],
   "teleop": [
-    { "name": "Shooting Locations",
-      "code": "tsl",
-      "type": "clickable_image",
-      "filename": "2026/half_field.png",
-      "dimensions": "7 10",
-      "allowableResponses": "1 2 3 4 8 9 10 11 15 16 17 18 22 23 24 25 29 30 31 32 36 37 38 39 43 44 45 46 50 51 52 53 57 58 59 60 64 65 66 67",
-      "expectedMax": 25,
-      "shape": "circle 5 black red true"
-    },
     { "name": "Fuel Scored",
       "code": "tfs",
-      "expectedMax": 150,
-      "altInc1": 10,
-      "altInc2": 5,
-      "type": "counter"
+      "type": "text",
+      "size": 10,
+      "maxSize": 55
     },
-    { "name": "Pass from Neutral Zone",
+    { "name": "Fed from Neutral Zone",
       "code": "pnz",
       "expectedMax": 250,
       "altInc1": 10,
       "altInc2": 5,
       "type": "counter"
     },
-    { "name": "Pass from Opp Alliance Zone",
+    { "name": "Fed from Opp Alliance Zone",
       "code": "poa",
       "expectedMax": 250,
       "altInc1": 10,
