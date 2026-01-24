@@ -160,7 +160,7 @@ var config_data = `
       "code": "die",
       "type": "bool"
     },
-    { "name": "Tippy<br>(almost tipped over)",
+    { "name": "No floor intake",
       "code": "tip",
       "type": "bool"
     },
