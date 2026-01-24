@@ -63,7 +63,7 @@ var config_data = `
       "size": 10,
       "maxSize": 55
     },
-    { "name": "Fed from Neutral Zone",
+    { "name": "Feed/Shuttle",
       "code": "apn",
       "expectedMax": 60,
       "altInc1": 10,
@@ -100,15 +100,8 @@ var config_data = `
       "size": 10,
       "maxSize": 55
     },
-    { "name": "Fed from Neutral Zone",
+    { "name": "Feed/Shuttle",
       "code": "pnz",
-      "expectedMax": 250,
-      "altInc1": 10,
-      "altInc2": 5,
-      "type": "counter"
-    },
-    { "name": "Fed from Opp Alliance Zone",
-      "code": "poa",
       "expectedMax": 250,
       "altInc1": 10,
       "altInc2": 5,
