@@ -2,8 +2,7 @@ var config_data = `
 {
   "dataFormat": "tsv",
   "title": "Deceivers Robotics | Scouting",
-  "page_title": "REBUILT | Deceivers Robotics",
-  "checkboxAs": "10",
+  "page_title": "Tipping | Deceivers Robotics",
   "prematch": [
     { "name": "Scouter Initials",
       "code": "s",
